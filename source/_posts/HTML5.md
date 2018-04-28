@@ -12,7 +12,7 @@ categories: 小Tips
 
 - FullScreen API是一个新的JS API，方便用户的阅读或观看视频，很多网站实现了全屏功能。通过编程的方式来向用户请求全屏显示，如果交互完成，随时可以退出全屏状态。
 
-  
+<!-- more -->  
 ```
 找到支持方法：
 function launchFullScreen(element) {  

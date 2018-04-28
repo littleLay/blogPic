@@ -10,7 +10,7 @@ categories: JS
 
 
 <center>下面进入正题：
-
+<!-- more -->
 #### <center> JS Array的特点
 - 既可以当作一个普通的数组来使用，即通过下标找到数组的元素，比如：
 ```

@@ -7,9 +7,11 @@ categories: JS
 
 
 <center>本人小白一枚，网上关于jsonp跨域的博文和回答实在是太多了，看到好多种？？jsonp的方式，并没有一一去尝试，可能原理都相同吧，还没有做深入了解，只是先记录一下我所掌握的jsonp解决跨域的方法，希望和我一样看的头晕眼花的小伙伴能有所收获~
+<!-- more -->
 
 #### <center> 同源策略
 要理解跨域，先要了解“同源策略”，所谓同源是指，域名，协议，端口相同。所谓“同源策略”，简单的说就是基于安全考虑，当前域不能访问其他域的东西。
+
 一些常见的是否同源示例可参照下表：
 ![image](http://upload-images.jianshu.io/upload_images/8542482-636780d70a19dd22?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 

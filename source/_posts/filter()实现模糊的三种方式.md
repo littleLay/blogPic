@@ -3,20 +3,14 @@ title: filter()实现模糊的三种方式
 data: 2018/4/26
 categories: CSS
 ---
+![2018/4/17 晴天](https://upload-images.jianshu.io/upload_images/8542482-2ef43dd9c47ca960.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-<center>![2018/4/23 阴天](https://upload-images.jianshu.io/upload_images/8542482-4b5418772daadeb1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+<center> filter:blur(2px) 是实现背景模糊的主要属性，下面来讲述filter实现三种效果的方法。
+<center> blur里的参数是设定高斯函数的标准差，或者说是屏幕上以多少像素融在一起，所以值越大，越模糊。
 
-
-<center>
-filter:blur(2px) 是实现背景模糊的主要属性，下面来讲述filter实现三种效果的方法。
-<center>
-blur里的参数是设定高斯函数的标准差，或者说是屏幕上以多少像素融在一起，所以值越大，越模糊。
-
-
-### <center> 普通背景模糊
-<center>filter属性会使整个div的后代模糊并且还会出现白边，如果想让div里的子元素不模糊，***怎么办呢？***
-<center>可以使用伪元素，既解决了模糊问题，也解决了白边问题。
-
+### <center>普通背景模糊</center>
+<center> filter属性会使整个div的后代模糊并且还会出现白边，如果想让div里的子元素不模糊，***怎么办呢？***
+<center> 可以使用伪元素，既解决了模糊问题，也解决了白边问题。
 
 - 实现思路：
 在父容器中设置背景，并且使用相对定位，方便伪元素重叠；在：after中只需要继承背景，并且设置模糊，绝对定位覆盖父元素即可，这样父容器中的子元素便可不受模糊度影响。因为伪元素的模糊度不能被父元素的子代继承。

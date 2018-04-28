@@ -3,12 +3,13 @@ title: jquery基本操作总结
 date: 2018/4/26
 categories: jquery
 ---
-
 <center>![2018/4/23 阴天](https://imgsa.baidu.com/forum/w%3D580/sign=4cebdabbd31373f0f53f6f97940d4b8b/4beffffe9925bc31c1c843585cdf8db1ca137077.jpg)
-
 <center>[资料来源](http://www.w3school.com.cn/jquery/jquery_dom_get.asp)
+
 ### <center> 《jQuery 选择器》
+
 <center>jquery元素选择器和属性选择器允许您通过标签名、属性名或内容对HTML元素进行选择。
+
 <center>- jquery元素选择器
 
 ##### 使用CSS选择器来选取HTML元素
