@@ -1,12 +1,13 @@
 ---
-title: 关于jQuery的CSS()原理
+title: 关于jQuery的CSS原理
 date: 2018-04-29 15:50:23
 tags: CSS
 ---
 ![2018/4/29](https://imgsa.baidu.com/forum/w%3D580/sign=0190f0864b540923aa696376a259d1dc/e15ef4f81a4c510f55d8ecbf6259252dd42aa515.jpg)
 
 ```bush
-我们都知道在操作DOM元素的CSS样式时，使用jQuery可以很容易地对CSS元素进行操作。其中jQuery的CSS方法，其底层运作就应用了getComputedStyle和getPropertyValue的方法。
+我们都知道在操作DOM元素的CSS样式时，使用jQuery可以很容易地对CSS元素进行操作。
+其中jQuery的CSS方法，其底层运作就应用了getComputedStyle和getPropertyValue的方法。
 ```
 下面进入正题，开始一步步分析。
 
